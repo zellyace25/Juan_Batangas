@@ -2,7 +2,7 @@ import React from "react";
 
 function NavigationContainer({ navigationOption }) {
   return (
-    <div className="text-[#455154] font-poppins hover:bg-[#D12B2B] rounded-[30px] py-[5px] hover:px-[20px] hover:text-[#F5F5F5] mx-5">
+    <div className="text-[#455154] font-poppins flex justify-center hover:bg-[#D12B2B] rounded-[30px] py-[5px] px-[20px] hover:text-[#F5F5F5]  cursor-pointer">
       {navigationOption}
     </div>
   );

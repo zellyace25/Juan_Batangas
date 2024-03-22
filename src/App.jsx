@@ -1,9 +1,11 @@
-import Header from "./components/Header";
+import Footer from "./pages/Footer";
+import Header from "./pages/Header";
 
 function App() {
   return (
     <>
       <Header />
+      <Footer/>
     </>
   );
 }

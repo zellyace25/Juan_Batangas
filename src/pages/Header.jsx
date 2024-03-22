@@ -1,14 +1,9 @@
 import React from "react";
 import logo from "/src/assets/LOGO.svg";
-import searchIcon from "/src/assets/Vector.png";
-import NavigationContainer from "./NavigationContainer";
+import NavigationContainer from "../components/NavigationContainer";
+import resources from "/src/Resources.js";
+
 function Header() {
-  const navigationBar = [
-    "Home",
-    "Government",
-    "Programs and Services",
-    "News and Events",
-  ];
   return (
     <div className="flex items-center w-screen h-[90px] bg-[#F5F5F5] p-3 justify-between">
       <div className="flex items-center gap-3">
@@ -18,9 +13,9 @@ function Header() {
         </h1>
       </div>
 
-      <div className="flex gap-10 items-center">
-        {navigationBar.map((navigationOption) => (
-          <NavigationContainer navigationOption={navigationOption} />
+      <div className="flex gap-7 items-center">
+        {resources[0].navigationBar.map((navigationOption, i) => (
+          <NavigationContainer navigationOption={navigationOption} key={i} />
         ))}
 
         <div className="bg-[#C21616] rounded-full p-3 h-10 w-10 cursor-pointer mr-10">
