@@ -7,7 +7,7 @@ import ContactUs from "../components/ContactUs";
 
 function Footer() {
   return (
-    <div className="flex w-screen h-auto bg-[#B00A0A] px-28 py-10 gap-10">
+    <div className="flex w-full h-auto bg-[#B00A0A] px-28 py-10 gap-10">
       {/* first colum */}
       <div className="flex flex-col gap-10 w-[33.33%]">
         <div className="flex items-center gap-3">

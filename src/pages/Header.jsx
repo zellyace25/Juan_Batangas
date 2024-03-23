@@ -5,7 +5,7 @@ import resources from "/src/Resources.js";
 
 function Header() {
   return (
-    <div className="flex items-center w-screen h-[90px] bg-[#F5F5F5] p-3 justify-between">
+    <div className="flex items-center w-full h-[90px] bg-[#F5F5F5] p-3 justify-between">
       <div className="flex items-center gap-3">
         <img className="h-[45px]" src={logo} />
         <h1 className="text-[#C21616] font-poppins font-[700] text-xl w-[120px]">
