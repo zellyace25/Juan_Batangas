@@ -3,7 +3,7 @@ import VisionMission from "../../components/VisionMission";
 
 function Section2() {
   return (
-    <div className="w-full">
+    <div className="w-full bg-[#F5F5F5]">
       <div className="w-[400px] h-[400px] border-dotted border-2 border-slate-500 -bottom-2/4 right-52 rounded-full absolute"></div>
 
       <div className="h-[550px] w-[100%] relative overflow-hidden">
@@ -12,7 +12,7 @@ function Section2() {
           className="absolute right-0 -bottom-[30px] h-[600px]"
           src={ellipse}
         /> */}
-        <div className="bg-[#B30A05] w-[70%] h-[450px] rounded-tr-[500px] p-16">
+        <div className="bg-[#830600] w-[70%] h-[450px] rounded-tr-[500px] p-16">
           <h1 className="text-white font-poppins font-bold text-[48px]">
             CITIZEN'S CHARTER
           </h1>

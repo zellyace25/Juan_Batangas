@@ -13,7 +13,7 @@ import Slider from "../../components/Slider";
 
 function Section1() {
   return (
-    <div className="flex items-center h-[450px] relative overflow-hidden w-full">
+    <div className="flex items-center h-[450px] relative overflow-hidden w-full bg-[#F5F5F5]">
       <img className="absolute right-0 -top-5 h-[450px]" src={yellow} />
       {/* first column */}
       <div className="flex flex-col justify-center items-center w-1/2 text-center p-10 gap-5">

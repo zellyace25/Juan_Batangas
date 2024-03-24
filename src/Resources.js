@@ -39,6 +39,11 @@ const resources = [
       "/src/assets/Carousel3.png",
       "/src/assets/Carousel4.png",
     ],
+    visits: [
+      "/src/assets/VISIT1.png",
+      "/src/assets/VISIT2.png",
+      "/src/assets/VISIT3.png",
+    ],
   },
 ];
 

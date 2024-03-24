@@ -4,7 +4,7 @@ import arrow from "/src/assets/arrow.png";
 
 function Section3() {
   return (
-    <div className="flex flex-col items-center px-80 gap-1">
+    <div className="flex flex-col items-center px-80 gap-1 w-full bg-[#F5F5F5]">
       <h1 className="text-[#FCA311] self-start text-[40px] font-bold">
         History
       </h1>
