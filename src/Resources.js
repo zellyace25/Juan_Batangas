@@ -32,7 +32,7 @@ const resources = [
       " (043) 723-4651",
       "batspiocapitol@yahoo.com",
     ],
-    textGradients: ["Programs", "Announcements", "Officials"],
+    textGradients: ["History", "Mission", "Vision"],
     carousels: [
       "/src/assets/Carousel1.png",
       "/src/assets/Carousel2.png",

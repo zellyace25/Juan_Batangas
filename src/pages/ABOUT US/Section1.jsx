@@ -17,11 +17,37 @@ function Section1() {
       <img className="absolute right-0 -top-5 h-[450px]" src={yellow} />
       {/* first column */}
       <div className="flex flex-col justify-center items-center w-1/2 text-center p-10 gap-5">
-        <h1 className="text-[36px] font-semibold text-[#4D4D4D] font-inter">
-          #Juan Batangas
-        </h1>
+        <div className="flex gap-3 justify-center w-full">
+          <h1 className="text-[36px] font-semibold text-[#4D4D4D] font-inter">
+            About us
+          </h1>
+          <h1 className="text-[#830600] text-[36px] font-semibold font-inter">
+            Batangas!
+          </h1>
+        </div>
 
-        <div className="overflow-hidden w-full h-20 ">
+        {/* swiper for text animation */}
+        <div className="w-full h-[80px] flex justify-center">
+          <Swiper
+            freeMode={true}
+            direction="vertical"
+            effect="coverflow"
+            loop={true}
+            autoplay={{ delay: 2000 }}
+            modules={[FreeMode, Autoplay]}
+            className="max-w-[90%] lg:max-[80%]  "
+          >
+            {resources[0].textGradients.map((textGradient, i) => (
+              <SwiperSlide
+                key={i}
+                className="flex justify-center items-center "
+              >
+                <TextGradientAnimation textGradient={textGradient} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+        {/* <div className="overflow-hidden w-full h-20 ">
           {resources[0].textGradients.map((textGradient, i) => (
             <TextGradientAnimation
               key={i}
@@ -29,7 +55,7 @@ function Section1() {
               delay={i * 2000}
             />
           ))}
-        </div>
+        </div> */}
 
         <p className="text-sm px-20">
           Discover the fascinating world of the Province of Batangas, where a
@@ -40,10 +66,6 @@ function Section1() {
       {/* second column */}
       <div className="w-1/2 flex justify-center">
         <Swiper
-          breakpoints={{
-            340: { slidesPerView: 2, spaceBetween: "5px" },
-            700: { slidesPerView: 1, spaceBetween: "5px" },
-          }}
           freeMode={true}
           effect="coverflow"
           loop={true}
