@@ -27,7 +27,7 @@ function Section1() {
         </div>
 
         {/* swiper for text animation */}
-        <div className="w-full h-[80px] flex justify-center">
+        <div className="w-full h-[80px] text-[60px] font-bold flex justify-center">
           <Swiper
             freeMode={true}
             direction="vertical"
@@ -47,15 +47,6 @@ function Section1() {
             ))}
           </Swiper>
         </div>
-        {/* <div className="overflow-hidden w-full h-20 ">
-          {resources[0].textGradients.map((textGradient, i) => (
-            <TextGradientAnimation
-              key={i}
-              textGradient={textGradient}
-              delay={i * 2000}
-            />
-          ))}
-        </div> */}
 
         <p className="text-sm px-20">
           Discover the fascinating world of the Province of Batangas, where a
