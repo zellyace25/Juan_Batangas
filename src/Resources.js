@@ -11,6 +11,7 @@ const resources = [
       "Government",
       "Programs and Services",
       "News and Events",
+      "About us"
     ],
     governmentLinks: [
       "Official Gazette",

@@ -60,26 +60,23 @@ function Section1() {
           freeMode={true}
           effect="coverflow"
           loop={true}
-          autoplay={{ delay: 3000 }}
           pagination={{ clickable: true }}
           navigation={{
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           }}
-          modules={[FreeMode, Pagination, Navigation, Autoplay]}
-          className="max-w-[90%] lg:max-[80%]  "
+          modules={[FreeMode, Pagination, Navigation]}
+          className="max-w-[65%] lg:max-[80%] "
         >
           {resources[0].carousels.map((carousel, i) => (
-            <SwiperSlide
-              key={i}
-              className="flex justify-center items-center p-10"
-            >
+            <SwiperSlide key={i} className="flex justify-center items-center">
               <Slider carousel={carousel} />
             </SwiperSlide>
           ))}
-          <div className="swiper-button-prev"></div>
-
-          <div className="swiper-button-next "></div>
+          <div className="border-solid border-2 border-black bg-white rounded-full w-[20px] h-[20px] p-3">
+            <div className="swiper-button-prev text-[#830600]"></div>
+          </div>
+          <div className="swiper-button-next text-[#830600]"></div>
         </Swiper>
       </div>
     </div>

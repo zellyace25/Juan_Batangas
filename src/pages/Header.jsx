@@ -2,20 +2,29 @@ import React from "react";
 import logo from "/src/assets/LOGO.svg";
 import NavigationContainer from "../components/NavigationContainer";
 import resources from "/src/Resources.js";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate();
+
   return (
     <div className="flex items-center w-full h-[90px] bg-[#F5F5F5] p-3 justify-between">
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3" onClick={() => navigate("/")}>
         <img className="h-[45px]" src={logo} />
         <h1 className="text-[#C21616] font-poppins font-[700] text-xl w-[120px]">
           Province of Batangas
         </h1>
       </div>
 
-      <div className="flex gap-7 items-center">
+      <div className="flex gap-3 items-center">
         {resources[0].navigationBar.map((navigationOption, i) => (
-          <NavigationContainer navigationOption={navigationOption} key={i} />
+          <NavigationContainer
+            navigationOption={navigationOption}
+            key={navigationOption}
+            handleClick={() => {
+              navigate(`/${navigationOption}`);
+            }}
+          />
         ))}
 
         <div className="bg-[#C21616] rounded-full p-3 h-10 w-10 cursor-pointer mr-10">
