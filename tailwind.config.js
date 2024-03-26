@@ -7,9 +7,11 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        lexend: ['Lexend', 'sans-serif']
+        lexend: ['Lexend', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        inter: ['Inter', 'sans-serif']
       }
-    },
+    }, 
   },
   plugins: [],
 }
