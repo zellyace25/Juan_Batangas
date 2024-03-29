@@ -3,7 +3,7 @@ import { governorBg } from '../../constant'
 
 const HeroGovernment = () => {
   return (  
-    <div className='flex pb-4 h-[530px] mb-8 gap-8'> 
+    <div className='flex pb-4 h-[530px] mb-8 gap-8 '> 
       <div className='flex flex-1 flex-col pt-[7rem] gap-16'> 
         <div className='pl-8 bg-[#FFFFFF] w-[92%] rounded-r-[40px] p-4 border-title'>
           <h1 className='font-lexend text-[#830600] text-6xl py-4 font-medium'>Leading Batangas:</h1>

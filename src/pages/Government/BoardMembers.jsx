@@ -24,7 +24,7 @@ const BoardMembers = () => {
     setValue('table2')    
   }
   return (
-    <div>
+    <div className='bg-primary'>
       <div className='flex justify-center items-center gap-8 relative'> 
         <div onClick={handleClickOne} className=' cursor-pointer'>    
           <BoardBtn 

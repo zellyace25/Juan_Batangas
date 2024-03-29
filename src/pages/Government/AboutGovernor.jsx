@@ -3,7 +3,7 @@ import { governorData } from '../../constant'
 
 const AboutGovernor = () => { 
   return (
-    <div className='mb-8'>
+    <div className=''> 
       {governorData.map((data) =>{ 
         return <div className='relative flex h-[32rem] items-center' key={data.governor.name}> 
         <img src={data.governor.img} alt=""
@@ -15,7 +15,7 @@ const AboutGovernor = () => {
           <p className='text-[#FFFFFF] font-poppins text-[30px]'>{data.governor.date}</p>  
         </div>  
       </div>  
-      })}  
+      })}   
 
       {governorData.map((data) =>{  
         return <div className='relative flex h-[32rem] items-center' key={data.viceGovernor.name}> 

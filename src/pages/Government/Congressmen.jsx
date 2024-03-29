@@ -23,7 +23,7 @@ const Congressmen = () => {
   }; 
 
   return ( 
-    <div className='py-8 '>  
+    <div className='py-8 bg-primary'>  
       <div className='flex'> 
         <div className='border border-[#B00A0A] h-full w-[8rem] mt-3 mr-3'></div>
         <div> 

@@ -1,11 +1,16 @@
 import React from "react";
 import Header from "./Header";
+import HeroNews from "./News/HeroNews";
+import NewsSection from "./News/NewsSection";
+import Footer from "./Footer";
 
 function News() {
   return (
     <>
-      <Header />
-      <div className="w-full">NEWS AND ANNOUNCEMENT</div>
+      <Header />  
+      <HeroNews/> 
+      <NewsSection/>
+      <Footer/>
     </>
   );
 }

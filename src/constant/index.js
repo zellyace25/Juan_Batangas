@@ -17,6 +17,8 @@ import waveBottom2 from '../assets/WaveBottom2.svg'
 import waveTop from '../assets/WaveTop.svg'
 import waveTop2 from '../assets/WaveTop2.svg'
 import heroNewsImg from '../assets/images/heroNewsImage.png'
+import newsImg from '../assets/images/newsImg.png'
+import asideNewsImg from '../assets/images/asideNewsImg.png'
 
 export {
     governorBg,
@@ -37,8 +39,71 @@ export {
     waveBottom2,
     waveTop,
     waveTop2,
-    heroNewsImg
+    heroNewsImg,
+    newsImg,
+    asideNewsImg
 } 
+
+export const newsData = [
+    {
+        aside:[
+            {
+                img: newsImg,
+                sub: 'John Smash',
+                time: '.5min',
+                title: 'Lorem Ipsum is simply dummy text dummy text ',
+                text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.'
+            },{ 
+                img: newsImg, 
+                sub: 'John Smash',
+                time: '.5min',
+                title: 'Lorem Ipsum is simply dummy text dummy text ',
+                text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.'
+            }
+        ]
+    },{
+        side: [
+            {
+                img: asideNewsImg,
+                sub: 'Juan Bats',
+                time: '.5min',
+                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+            },{
+                img: asideNewsImg,
+                sub: 'Juan Bats',
+                time: '.5min',
+                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+            },{
+                img: asideNewsImg,
+                sub: 'Juan Bats',
+                time: '.5min',
+                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+            },{
+                img: asideNewsImg,
+                sub: 'Juan Bats',
+                time: '.5min',
+                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+            },{
+                img: asideNewsImg,
+                sub: 'Juan Bats',
+                time: '.5min',
+                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+            },{
+                img: asideNewsImg,
+                sub: 'Juan Bats',
+                time: '.5min',
+                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+            },{
+                img: asideNewsImg,
+                sub: 'Juan Bats',
+                time: '.5min',
+                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+            },
+        ]
+    }
+
+    
+]
 
 export const governorData = [
     {
