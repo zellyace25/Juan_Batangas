@@ -22,7 +22,7 @@ import asideNewsImg from '../assets/images/asideNewsImg.png'
 
 export {
     governorBg,
-    governorImg,
+    governorImg, 
     leftArrow,
     rightArrow,
     viceGov,
