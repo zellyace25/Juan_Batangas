@@ -5,7 +5,7 @@ import Youtube from "/src/assets/Youtube.svg";
 import Location from "/src/assets/Location.svg";
 import Phone from "/src/assets/Phone.svg";
 import Email from "/src/assets/Email.svg";
-import student from "src/assets/student.png"
+import student from "/src/assets/student.png"
 
 import Carousel1 from "/src/assets/Carousel1.png";
 import Carousel2 from "/src/assets/Carousel2.png";
