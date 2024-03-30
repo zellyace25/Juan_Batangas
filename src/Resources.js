@@ -41,7 +41,7 @@ const resources = [
       "batspiocapitol@yahoo.com",
     ],
     textGradients: ["History", "Mission", "Vision"],
-    carousels: [Carousel1, Carousel2, Carousel3.png, Carousel4],
+    carousels: [Carousel1, Carousel2, Carousel3, Carousel4],
     visits: [VISIT1, VISIT2, VISIT3],
   },
 ];
