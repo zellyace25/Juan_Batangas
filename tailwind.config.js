@@ -13,7 +13,7 @@ export default {
       backgroundColor:{
         primary: '#F5F5F5'
       }
-    },
+    }, 
   },
   plugins: [],
 }
