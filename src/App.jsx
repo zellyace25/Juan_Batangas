@@ -10,10 +10,10 @@ import About from "./pages/AboutUs";
 import Government from "./pages/Government";
 import Programs from "./pages/Programs";
 import News from "./pages/News";
-
+ 
 function App() {
   return (
-    <>
+    <> 
       <Router>
         <Routes> 
           <Route exact path="/Home" element={<Home />} />

@@ -21,7 +21,7 @@ import newsImg from '../assets/images/newsImg.png'
 import asideNewsImg from '../assets/images/asideNewsImg.png'
 
 export {
-    governorBg,
+    governorBg,  
     governorImg, 
     leftArrow,
     rightArrow,
