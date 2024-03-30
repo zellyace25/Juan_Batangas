@@ -7,7 +7,7 @@ import Footer from "./Footer";
 function News() {
   return (
     <>
-      <Header />  
+      <Header />   
       <HeroNews/> 
       <NewsSection/>
       <Footer/>
