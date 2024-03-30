@@ -7,7 +7,6 @@ const resources = [
       "/src/assets/Youtube.svg",
     ],
     navigationBar: [
-      "Home",
       "Government",
       "Programs and Services",
       "News and Events",
