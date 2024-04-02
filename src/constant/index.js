@@ -108,12 +108,14 @@ export const newsData = [
 export const governorData = [
     {
         governor:{
+            id: 1,
             name: "Hon. Hermilando I. Mandanas",
             position: 'Governor',
             date: 'July 1, 2016 - Present',
             img: governorImg
         },
         viceGovernor: {
+            id: 2,
             name: 'JOSE ANTONIO "MARK" SERMONIA LEVISTE II',
             position: 'Vice- Governor', 
             date: '2022 – present',

@@ -98,7 +98,9 @@
 
 .background-government {
   background: url('./assets/bg.svg') no-repeat center/cover;
+  background-color: rgb(245 245 245)
 }
+
 
 
 @layer utilities{

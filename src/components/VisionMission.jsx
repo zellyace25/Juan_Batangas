@@ -9,5 +9,5 @@ function VisionMission({ title, content }) {
     </div>
   );
 }
-
+  
 export default VisionMission;

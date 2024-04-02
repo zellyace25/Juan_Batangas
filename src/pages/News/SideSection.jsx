@@ -1,5 +1,5 @@
 import React from 'react'
-import NewsComponent from '../../components/Government/News/NewsComponent'
+import NewsComponent from '../../components/News/NewsComponent'
 import { newsData } from '../../constant'
 
 const SideSection = () => {

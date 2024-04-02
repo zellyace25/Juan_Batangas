@@ -3,13 +3,13 @@ import Header from "./Header";
 import BoardMembers from "../pages/Government/BoardMembers";
 import Congressmen from "../pages/Government/Congressmen";
 import Footer from "./Footer";
-import GovernmentMain from "./Government/GovernmentMain";
+import GovernmentHero from "./Government/GovernmentHero";
 
 function Government() {
   return (
     <> 
       <Header />  
-      <GovernmentMain/>
+      <GovernmentHero/>
       <Congressmen/>
       <BoardMembers/>
       <Footer/> 
