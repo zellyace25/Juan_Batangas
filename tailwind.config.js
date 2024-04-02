@@ -12,8 +12,11 @@ export default {
       },
       backgroundColor:{
         primary: '#F5F5F5'
+      },
+      dropShadow:{
+        textShadow: '0px 6.82121px 0px rgba(0, 0, 0, 0.25)'
       }
-    }, 
+    },  
   },
   plugins: [],
 }
