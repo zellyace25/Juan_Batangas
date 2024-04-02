@@ -19,6 +19,7 @@ import waveTop2 from '../assets/WaveTop2.svg'
 import heroNewsImg from '../assets/images/heroNewsImage.png'
 import newsImg from '../assets/images/newsImg.png'
 import asideNewsImg from '../assets/images/asideNewsImg.png'
+import mapImg from '../assets/images/mapImg.png'
 
 export {
     governorBg,  
@@ -41,7 +42,8 @@ export {
     waveTop2,
     heroNewsImg,
     newsImg,
-    asideNewsImg
+    asideNewsImg,
+    mapImg
 } 
 
 export const newsData = [
