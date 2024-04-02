@@ -8,12 +8,15 @@ function Header() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex items-center w-full h-[90px] bg-[#F5F5F5] p-3 justify-between">
-      <div className="flex items-center gap-3 cursor-pointer" onClick={() => navigate("/")}>
+    <div className="flex items-center w-full h-[90px] bg-[#F5F5F5] p-3 justify-between shadow-md shadow-slate-400 z-50">
+      <div
+        className="flex items-center gap-3 cursor-pointer"
+        onClick={() => navigate("/")}
+      >
         <img className="h-[45px]" src={logo} />
         <h1 className="text-[#C21616] font-poppins font-[700] text-xl w-[120px]">
           Province of Batangas
-        </h1> 
+        </h1>
       </div>
 
       <div className="flex gap-3 items-center">
