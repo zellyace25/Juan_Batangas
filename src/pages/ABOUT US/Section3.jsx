@@ -29,7 +29,7 @@ function Section3() {
       </div>
       <div className="flex gap-5 items-center w-full justify-end my-5">
         <img className="w-[200px]" src={arrow} />
-        <h1 className="text-[#830600] font-poppins font-medium text-[16px]">
+        <h1 className="text-[#830600] font-poppins font-medium text-[16px] cursor-pointer">
           READ MORE
         </h1>
       </div>

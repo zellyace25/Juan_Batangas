@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "/src/assets/LOGO.svg";
 import NavigationContainer from "../components/NavigationContainer";
 import resources from "/src/Resources.js";
@@ -8,9 +8,9 @@ function Header() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex items-center w-full h-[90px] bg-[#F5F5F5] p-3 justify-between shadow-md shadow-slate-400 z-50">
+    <div className="flex items-center w-full h-[90px] bg-[#F5F5F5] p-3 z-50">
       <div
-        className="flex items-center gap-3 cursor-pointer"
+        className="flex items-center gap-3 cursor-pointer w-1/4"
         onClick={() => navigate("/")}
       >
         <img className="h-[45px]" src={logo} />
@@ -19,8 +19,8 @@ function Header() {
         </h1>
       </div>
 
-      <div className="flex gap-3 items-center">
-        {resources[0].navigationBar.map((navigationOption, i) => (
+      <div className="flex gap-5 items-center w-3/4 justify-end">
+        {resources[0].navigationBar.map((navigationOption) => (
           <NavigationContainer
             navigationOption={navigationOption}
             key={navigationOption}
