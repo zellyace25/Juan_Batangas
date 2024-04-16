@@ -3,9 +3,11 @@ import logo from "/src/assets/LOGO.svg";
 import NavigationContainer from "../components/NavigationContainer";
 import resources from "/src/Resources.js";
 import { useNavigate } from "react-router-dom";
+import ProgramAndServices from "./ProgramAndServices";
 
 function Header() {
   const navigate = useNavigate();
+  const [clickPrograms, setClickPrograms] = useState(false);
 
   return (
     <div className="flex items-center w-full h-[90px] bg-[#F5F5F5] p-3 z-50">
@@ -19,16 +21,20 @@ function Header() {
         </h1>
       </div>
 
-      <div className="flex gap-5 items-center w-3/4 justify-end">
+      <div className="flex gap-5 items-center w-3/4 justify-end relative">
         {resources[0].navigationBar.map((navigationOption) => (
           <NavigationContainer
             navigationOption={navigationOption}
             key={navigationOption}
             handleClick={() => {
-              navigate(`/${navigationOption}`);
+              navigationOption === "Programs and Services"
+                ? setClickPrograms(!clickPrograms)
+                : navigate(`/${navigationOption}`);
             }}
           />
         ))}
+
+        {clickPrograms && <ProgramAndServices/>}
 
         <div className="bg-[#C21616] rounded-full p-3 h-10 w-10 cursor-pointer mr-10">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

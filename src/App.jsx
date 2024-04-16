@@ -8,17 +8,27 @@ import {
 import Home from "./pages/Home";
 import About from "./pages/AboutUs";
 import Government from "./pages/Government";
-import Programs from "./pages/Programs";
 import News from "./pages/News";
- 
+import ProgramAndServices from "./pages/ProgramAndServices";
+import Scholarships from "./pages/Scholarships";
+import HELPPrograms from "./pages/HELPPrograms";
+import SocialWelfare from "./pages/SocialWelfare";
+
 function App() {
   return (
-    <> 
+    <>
       <Router>
-        <Routes> 
+        <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/Government" element={<Government />} />
-          <Route exact path="/Programs and Services" element={<Programs />} />
+          <Route
+            exact
+            path="/Programs and Services"
+            element={<ProgramAndServices />}
+          />
+          <Route exact path="/Scholarships" element={<Scholarships />} />
+          <Route exact path="/HELPProgram" element={<HELPPrograms />} />
+          <Route exact path="/SocialWelfare" element={<SocialWelfare />} />
           <Route exact path="/News and Events" element={<News />} />
           <Route exact path="/About us" element={<About />} />
 

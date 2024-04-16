@@ -3,8 +3,9 @@ import Header from "./Header";
 import ChoicesContainer from "../components/Government/ChoicesContainer";
 import MunicipalityOption from "../components/Government/MunicipalityOption";
 import IskoContent from "../components/Government/IskoContent";
+import Footer from "./Footer";
 
-function Programs() {
+function Scholarships() {
   const [handleDistrict, setHandleDistrict] = useState(false);
   const [district, setDistrict] = useState("");
   const [handleMunicipality, setHandleMunicipality] = useState(false);
@@ -84,8 +85,9 @@ function Programs() {
           <IskoContent/>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
 
-export default Programs;
+export default Scholarships;

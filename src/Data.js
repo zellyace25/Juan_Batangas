@@ -1,7 +1,7 @@
 const data = [
     {
         district: "District I",
-        municipality: ["Dagatan", "Calansayan","Dagatan", "Calansayan","Dagatan", "Calansayan","Dagatan", "Calansayan","Dagatan", "Calansayan","Dagatan", "Calansayan","Dagatan", "Calansayan","Dagatan", "Calansayan","Dagatan", "Calansayan","Dagatan", "Calansayan","Dagatan", "Calansayan","Dagatan", "Calansayan","Dagatan", "Calansayan",],
+        municipality: ["Dagatan", "Calansayan"],
         what: ["Educational and Financial Assistance"],
         who: ["For students enrolled in Alitagtag",],
         how: ["Fill out the form on the official Alitagtag local government website"],
