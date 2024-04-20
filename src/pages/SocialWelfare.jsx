@@ -5,9 +5,7 @@ import Footer from "./Footer";
 function SocialWelfare() {
   return (
     <>
-    <Header/>
       <div>SocialWelfare</div>
-      <Footer/>
     </>
   );
 }

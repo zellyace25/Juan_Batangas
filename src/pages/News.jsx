@@ -6,11 +6,9 @@ import Footer from "./Footer";
 
 function News() {
   return (
-    <>
-      <Header />   
+    <>  
       <HeroNews/> 
       <NewsSection/>
-      <Footer/>
     </>
   );
 }

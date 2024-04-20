@@ -9,14 +9,12 @@ import MapSection from "./Government/MapSection";
 
 function Government() {
   return (
-    <> 
-      <Header />  
+    <>   
       {/* <GovernmentHero/>
       <Congressmen/>
       <BoardMembers/> */}
       <CityHero/>
       <MapSection/> 
-      <Footer/> 
     </>
   );
 }

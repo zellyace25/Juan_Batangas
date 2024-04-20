@@ -13,11 +13,13 @@ import ProgramAndServices from "./pages/ProgramAndServices";
 import Scholarships from "./pages/Scholarships";
 import HELPPrograms from "./pages/HELPPrograms";
 import SocialWelfare from "./pages/SocialWelfare";
+import Header from "./pages/Header";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
     <>
-      <Router>
+    <Header/>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/Government" element={<Government />} />
@@ -34,7 +36,7 @@ function App() {
 
           {/* Add Routes Here */}  
         </Routes>
-      </Router> 
+    <Footer/>
     </> 
   );
 }
