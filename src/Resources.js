@@ -1,17 +1,28 @@
+import {
+  Facebook,
+  Website,
+  Tweeter,
+  Youtube,
+  Location,
+  Phone,
+  Email,
+  Carousel1,
+  Carousel2,
+  Carousel3,
+  Carousel4,
+  VISIT1,
+  VISIT2,
+  VISIT3,
+} from "./Images";
+
 const resources = [
   {
-    socialIcons: [
-      "/src/assets/Facebook.svg",
-      "/src/assets/Website.svg",
-      "/src/assets/Tweeter.svg",
-      "/src/assets/Youtube.svg",
-    ],
+    socialIcons: [Facebook, Website, Tweeter, Youtube],
     navigationBar: [
-      "Home",
       "Government",
       "Programs and Services",
       "News and Events",
-      "About us"
+      "About us",
     ],
     governmentLinks: [
       "Official Gazette",
@@ -23,28 +34,15 @@ const resources = [
       "Supreme Court",
       "Sandiganbayan",
     ],
-    contactIcons: [
-      "/src/assets/Location.svg",
-      "/src/assets/Phone.svg",
-      "/src/assets/Email.svg",
-    ],
+    contactIcons: [Location, Phone, Email],
     contactInfos: [
       "Provincial Capitol Bldg., Batangas City, 4200, Batangas",
       " (043) 723-4651",
       "batspiocapitol@yahoo.com",
     ],
     textGradients: ["History", "Mission", "Vision"],
-    carousels: [
-      "/src/assets/Carousel1.png",
-      "/src/assets/Carousel2.png",
-      "/src/assets/Carousel3.png",
-      "/src/assets/Carousel4.png",
-    ],
-    visits: [
-      "/src/assets/VISIT1.png",
-      "/src/assets/VISIT2.png",
-      "/src/assets/VISIT3.png",
-    ],
+    carousels: [Carousel1, Carousel2, Carousel3, Carousel4],
+    visits: [VISIT1, VISIT2, VISIT3],
   },
 ];
 

@@ -15,7 +15,7 @@ function Government() {
       <Congressmen/>
       <BoardMembers/> */}
       <CityHero/>
-      <MapSection/>
+      <MapSection/> 
       <Footer/> 
     </>
   );

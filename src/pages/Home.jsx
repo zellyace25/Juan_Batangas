@@ -16,6 +16,7 @@ import categories from "/src/ProgramsAndServices.js";
 import CarouselPrograms from "../components/CarouselPrograms";
 import vidclip from "/src/assets/Videos/BatangasCity.mp4";
 import Header from "./Header";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -107,6 +108,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

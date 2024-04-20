@@ -1,31 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "/src/assets/LOGO.svg";
 import NavigationContainer from "../components/NavigationContainer";
 import resources from "/src/Resources.js";
 import { useNavigate } from "react-router-dom";
+import ProgramAndServices from "./ProgramAndServices";
 
 function Header() {
   const navigate = useNavigate();
+  const [clickPrograms, setClickPrograms] = useState(false);
 
   return (
-    <div className="flex items-center w-full h-[90px] bg-[#F5F5F5] p-3 justify-between">
-      <div className="flex items-center gap-3" onClick={() => navigate("/")}>
+    <div className="flex items-center w-full h-[90px] bg-[#F5F5F5] p-3 z-50">
+      <div
+        className="flex items-center gap-3 cursor-pointer w-1/4"
+        onClick={() => navigate("/")}
+      >
         <img className="h-[45px]" src={logo} />
         <h1 className="text-[#C21616] font-poppins font-[700] text-xl w-[120px]">
           Province of Batangas
-        </h1> 
+        </h1>
       </div>
 
-      <div className="flex gap-3 items-center">
-        {resources[0].navigationBar.map((navigationOption, i) => (
+      <div className="flex gap-5 items-center w-3/4 justify-end relative">
+        {resources[0].navigationBar.map((navigationOption) => (
           <NavigationContainer
             navigationOption={navigationOption}
             key={navigationOption}
             handleClick={() => {
-              navigate(`/${navigationOption}`);
+              navigationOption === "Programs and Services"
+                ? setClickPrograms(!clickPrograms)
+                : navigate(`/${navigationOption}`);
             }}
           />
         ))}
+
+        {clickPrograms && <ProgramAndServices/>}
 
         <div className="bg-[#C21616] rounded-full p-3 h-10 w-10 cursor-pointer mr-10">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

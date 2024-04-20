@@ -5,6 +5,7 @@ import Section3 from "./ABOUT US/Section3";
 import Section4 from "./ABOUT US/Section4";
 import Section5 from "./ABOUT US/Section5";
 import Header from "./Header";
+import Footer from "./Footer";
 
 function AboutUs() {
   return (
@@ -15,6 +16,7 @@ function AboutUs() {
       <Section3 />
       <Section4 />
       <Section5 />
+      <Footer/>
     </>
   );
 }
