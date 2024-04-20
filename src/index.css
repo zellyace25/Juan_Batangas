@@ -101,6 +101,10 @@
   background-color: rgb(245 245 245)
 }
 
+.leaflet-container{
+  height: 100%;
+}
+
 
 
 @layer utilities{

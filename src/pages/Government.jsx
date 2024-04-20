@@ -5,6 +5,7 @@ import Congressmen from "../pages/Government/Congressmen";
 import Footer from "./Footer";
 import GovernmentHero from "./Government/GovernmentHero";
 import CityHero from "./Government/CityHero";
+import MapSection from "./Government/MapSection";
 
 function Government() {
   return (
@@ -14,6 +15,7 @@ function Government() {
       <Congressmen/>
       <BoardMembers/> */}
       <CityHero/>
+      <MapSection/>
       <Footer/> 
     </>
   );

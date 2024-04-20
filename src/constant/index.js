@@ -20,6 +20,7 @@ import heroNewsImg from '../assets/images/heroNewsImage.png'
 import newsImg from '../assets/images/newsImg.png'
 import asideNewsImg from '../assets/images/asideNewsImg.png'
 import mapImg from '../assets/images/mapImg.png'
+import paperImg from '../assets/images/paperBg.png'
 
 export {
     governorBg,  
@@ -43,7 +44,8 @@ export {
     heroNewsImg,
     newsImg,
     asideNewsImg,
-    mapImg
+    mapImg,
+    paperImg
 } 
 
 export const newsData = [
