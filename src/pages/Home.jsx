@@ -21,7 +21,6 @@ import Footer from "./Footer";
 function Home() {
   return (
     <>
-      <Header />
       <div className="bg-[#F5F5F5] w-full h-full flex flex-col gap-10">
         {/* title div */}
         <div className="flex flex-col justify-center items-center">
@@ -108,7 +107,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

@@ -5,9 +5,7 @@ import Footer from "./Footer";
 function HELPPrograms() {
   return (
     <>
-    <Header/>
       <div>HELPPrograms</div>
-      <Footer/>
     </>
   );
 }

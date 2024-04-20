@@ -13,7 +13,6 @@ function Scholarships() {
 
   return (
     <>
-      <Header />
       <div className="w-full h-screen px-[80px] py-[30px] bg-[#F5F5F5]">
         <h1 className="gradient-text font-bold text-[60px]">
           Scholarships Programs
@@ -85,7 +84,6 @@ function Scholarships() {
           <IskoContent/>
         </div>
       </div>
-      <Footer/>
     </>
   );
 }
