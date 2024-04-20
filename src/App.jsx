@@ -32,10 +32,10 @@ function App() {
           <Route exact path="/News and Events" element={<News />} />
           <Route exact path="/About us" element={<About />} />
 
-          {/* Add Routes Here */}
+          {/* Add Routes Here */}  
         </Routes>
-      </Router>
-    </>
+      </Router> 
+    </> 
   );
 }
 

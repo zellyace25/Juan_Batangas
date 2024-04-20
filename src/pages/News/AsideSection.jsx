@@ -1,6 +1,6 @@
 import React from 'react'
 import { newsData } from '../../constant'
-import AsideNewsComponent from '../../components/Government/News/AsideNewsComponent'
+import AsideNewsComponent from '../../components/News/AsideNewsComponent'
 
 const AsideSection = () => {
   return (

@@ -19,6 +19,8 @@ import waveTop2 from '../assets/WaveTop2.svg'
 import heroNewsImg from '../assets/images/heroNewsImage.png'
 import newsImg from '../assets/images/newsImg.png'
 import asideNewsImg from '../assets/images/asideNewsImg.png'
+import mapImg from '../assets/images/mapImg.png'
+import paperImg from '../assets/images/paperBg.png'
 
 export {
     governorBg,  
@@ -41,7 +43,9 @@ export {
     waveTop2,
     heroNewsImg,
     newsImg,
-    asideNewsImg
+    asideNewsImg,
+    mapImg,
+    paperImg
 } 
 
 export const newsData = [
@@ -108,12 +112,14 @@ export const newsData = [
 export const governorData = [
     {
         governor:{
+            id: 1,
             name: "Hon. Hermilando I. Mandanas",
             position: 'Governor',
             date: 'July 1, 2016 - Present',
             img: governorImg
         },
         viceGovernor: {
+            id: 2,
             name: 'JOSE ANTONIO "MARK" SERMONIA LEVISTE II',
             position: 'Vice- Governor', 
             date: '2022 – present',

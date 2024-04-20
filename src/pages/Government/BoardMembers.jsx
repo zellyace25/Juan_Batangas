@@ -24,24 +24,26 @@ const BoardMembers = () => {
     setValue('table2')    
   }
   return (
-    <div className='bg-primary'>
-      <div className='flex justify-center items-center gap-8 relative'> 
-        <div onClick={handleClickOne} className=' cursor-pointer'>    
-          <BoardBtn 
-            text="Board Members" 
-            icon={<SvgOne fill={isClicked ? "#B00A0A": "#888B97"} />}
-            update={isClicked} 
-          />        
-        </div>  
-        <div onClick={handleClickTwo} className='cursor-pointer'>
-          <BoardBtn 
-            text="Department Heads" 
-            icon={<SvgTwo fill={isClicked2 ? "#B00A0A": "#888B97"} />}
-            update={isClicked2}
-          />       
+    <div className='bg-primary pt-8'>
+      <div className='flex relative items-center justify-between gap-8'> 
+        <div className='bg-[#830600] h-[51px] w-[20%] '></div>
+        <div className='flex items-center gap-8'>
+          <div onClick={handleClickOne} className=' cursor-pointer'>    
+              <BoardBtn 
+                text="Board Members" 
+                icon={<SvgOne fill={isClicked ? "#B00A0A": "#888B97"} />}
+                update={isClicked} 
+              />        
+          </div>  
+          <div onClick={handleClickTwo} className='cursor-pointer'>
+              <BoardBtn 
+                text="Department Heads" 
+                icon={<SvgTwo fill={isClicked2 ? "#B00A0A": "#888B97"} />}
+                update={isClicked2}
+              />       
+          </div>
         </div>
-        <div className='bg-[#830600] h-[51px] w-[300px] absolute left-0'></div>
-        <div className='bg-[#830600] h-[51px] w-[300px] absolute right-0'></div>
+        <div className='bg-[#830600] h-[51px] w-[20%] '></div>
       </div>  
       <div className='mt-8'> 
         {value === 'default' && <GovernmentTable columns={2} data={boardMembers}/>}  
