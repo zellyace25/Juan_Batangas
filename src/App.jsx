@@ -15,6 +15,7 @@ import HELPPrograms from "./pages/HELPPrograms";
 import SocialWelfare from "./pages/SocialWelfare";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
+import History from "./pages/ABOUT US/History";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/SocialWelfare" element={<SocialWelfare />} />
           <Route exact path="/News and Events" element={<News />} />
           <Route exact path="/About us" element={<About />} />
+          <Route exact path="/History" element={<History/>} />
 
           {/* Add Routes Here */}  
         </Routes>

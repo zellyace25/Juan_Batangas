@@ -1,8 +1,12 @@
 import React from "react";
 import HistoryContent from "../../components/HistoryContent";
 import arrow from "/src/assets/arrow.png";
+import { useNavigate } from "react-router-dom";
+
 
 function Section3() {
+  const navigate = useNavigate();
+
   return (
     <div className="flex flex-col items-center px-80 gap-1 w-full bg-[#F5F5F5]">
       <h1 className="text-[#FCA311] self-start text-[40px] font-bold">
@@ -29,7 +33,7 @@ function Section3() {
       </div>
       <div className="flex gap-5 items-center w-full justify-end my-5">
         <img className="w-[200px]" src={arrow} />
-        <h1 className="text-[#830600] font-poppins font-medium text-[16px] cursor-pointer">
+        <h1 className="text-[#830600] font-poppins font-medium text-[16px] cursor-pointer" onClick={() => navigate("/History")}>
           READ MORE
         </h1>
       </div>
