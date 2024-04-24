@@ -16,6 +16,9 @@ import SocialWelfare from "./pages/SocialWelfare";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import History from "./pages/ABOUT US/History";
+import StayConnected from "./pages/ABOUT US/StayConnected";
+import Visit from "./pages/ABOUT US/Visit";
+import Experience from "./pages/ABOUT US/Experience";
 
 function App() {
   return (
@@ -35,6 +38,9 @@ function App() {
           <Route exact path="/News and Events" element={<News />} />
           <Route exact path="/About us" element={<About />} />
           <Route exact path="/History" element={<History/>} />
+          <Route exact path="/Visit" element={<Visit/>} />
+          <Route exact path="/Experience" element={<Experience/>} />
+          <Route exact path="/Stay Connected" element={<StayConnected/>} />
 
           {/* Add Routes Here */}  
         </Routes>

@@ -32,6 +32,13 @@ import recent1 from "/src/assets/history/recent1.jpg";
 import recent2 from "/src/assets/history/recent2.jpg";
 import recent3 from "/src/assets/history/recent3.jpg";
 import line from "/src/assets/history/line.png";
+import visitLogo from "/src/assets/history/visitLogo.png";
+import transportation from "/src/assets/history/transportation.png";
+import bus from "/src/assets/history/bus.png";
+import car from "/src/assets/history/car.png";
+import car1 from "/src/assets/history/car1.png";
+import Rectanglebg from "/src/assets/history/Rectanglebg.png";
+import pin from "/src/assets/history/pin.png";
 
 export {
   Facebook,
@@ -64,5 +71,12 @@ export {
   recent1,
   recent2,
   recent3,
-  line
+  line,
+  visitLogo,
+  transportation,
+  bus,
+  car,
+  car1,
+  Rectanglebg,
+  pin
 };

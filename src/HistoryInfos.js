@@ -44,7 +44,23 @@ const histories = [
       "During the Presidency of Joseph Estrada, he also chose four Batangueños to be his closest advisers. The group was composed of Domingo Panganiban (Department of Agriculture), Benjamin Diokno (Department of Budget and Management), Dong Apacible (Legislative Liaison), Tony “Lepili” Leviste (Board of Investments Governor), and PedFaytaren (Economic Intelligence Chief). This is not to mention Dennis Hernandez, special assistant to Alfredo Lim of theDepartment of Interior and Local Government. During the Estrada Impeachment trial, Hernando Perez, a known lawyer from Batangas City served as private prosecutor.",
       "The Second People Power in 2001 also became an important event for the Batangueños. After Joseph Estrada was thrown off from power, Gloria Macapagal-Arroyo replaced him and chose De Villa as her executive Secretary. He was replaced by Eduardo Ermita, another Batangueño, whom she first appointed as Secretary of the Department National Defence. Three other Batangueños were in the Original the Arroyo Cabinet namely, Noel Cabrera from the Office of the Press Secretary, Renato Corona who was the Presidential Spokesman then later became a Supreme Court Justice, and Hernando Perez who was the Secretary of the Department of Justice.",
       "Leandro Mendoza, who was also chief of the Philippine National Police, was appointed Secretary of the Department of Transportation and Communication upon his retirement, while Lauro Baja, former Undersecretary of the Department of Foreign Affairs was appointed the Philippine Envoy to the United Nations.",
-      "Since June 29, 2010, President-elect Aquino, at that time, appoint Br. Armin Luistro FSC as the Secretary of the Department of Education."
+      "Since June 29, 2010, President-elect Aquino, at that time, appoint Br. Armin Luistro FSC as the Secretary of the Department of Education.",
+    ],
+    transportation: [
+      "Bus lines with routes going to and from Batangas are DLTBCo, ALPS, SUPREME Bus Lines, Dela Rosa Transit, JAC Liner, and Batangas Starexpress.",
+      "Batangas Seaport Terminal, located in Brgy. Sta. Clara in Batangas City, is where you can reach the other half of Southern Luzon composed of the island provinces of Mindoro, Marinduque, and Romblon.",
+      "You can also enjoy the Ro-Ro trip from Batangas straight to Caticlan port which is just minutes away from the world-famous island of Boracay.",
+    ],
+    starToll: [
+      "STAR Tollway has exits which will lead you to the town of Sto. Tomas, the city of Tanauan, and then the town of Malvar.",
+      "If you wish to go to Lipa City proper, turn right upon reaching Lipa City toll exit. Right in the city proper is the access road going to the towns of Padre Garcia, Rosario, and San Juan.",
+      "Turning left upon reaching Lipa City toll exit will lead you to the towns of Mataasnakahoy, San Jose, Cuenca, Alitagtag and other neighboring towns.",
+      "The last toll exit is Batangas City exit where you can access the provincial capitol, and the towns of San Pascual, Bauan, Mabini, and other nearby municipalities.",
+    ],
+    slex: [
+      "From SLEX, take the Sta. Rosa toll exit, turn right to reach Silang, Cavite then Tagaytay City.",
+      "The town of Nasugbu, Batangas comes after Tagaytay City. Turning left after the boundary of Batangas and Cavite will lead you to Diokno Highway — your access to the towns of Calaca, Lemery, Taal, and San Luis.",
+      "From Nasugbu Highway, you will reach the beach resorts of Nasugbu, Lian, and Calatagan if you take a right at the Palico junction, while taking a left will bound you to the towns of Tuy, Balayan, and Calaca.",
     ],
   },
 ];
