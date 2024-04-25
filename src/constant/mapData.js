@@ -24,6 +24,7 @@ export const municipalityData = [
 
 export const district1 = [
     {
+        id: 1,
         longLang: [13.934288, 120.925525],
         long: 13.934288,
         lang: 120.925525, 
@@ -32,6 +33,7 @@ export const district1 = [
         fbPage: 'https://www.facebook.com/lgu.agoncillo',
         hotline: '09152619656'
     },{
+        id: 2,
         longLang: [13.866667, 121],
         long: 13.866667,
         lang: 121,
@@ -40,6 +42,7 @@ export const district1 = [
         fbPage: 'https://www.facebook.com/p/Alitagtag-Public-Information-Office-100064381014111/',
         hotline: '(043) 772-3058'
     },{
+        id: 3,
         longLang: [13.937841, 120.727456],
         long: 13.937841,
         lang: 120.727456,
@@ -48,6 +51,25 @@ export const district1 = [
         fbPage: 'https://www.facebook.com/p/Municipality-of-Balayan-100064784526049/',
         hotline: '(0927) 434 8008'
     },{
+        id: 4,
+        longLang: [14.0092, 121.1080],
+        long: 14.0092,
+        lang: 121.1080,
+        city: 'Balete, Batangas',
+        website: 'https://www.baletebatangas.gov.ph/',
+        fbPage: 'N/A',
+        hotline: '(043) 740 9638'
+    },{
+        id: 5,
+        longLang: [14.0092, 121.1080],
+        long: 14.0092,
+        lang: 121.1080,
+        city: 'Balete, Batangas',
+        website: 'https://www.baletebatangas.gov.ph/',
+        fbPage: 'N/A',
+        hotline: '(043) 740 9638'
+    },{
+        id: 6,
         longLang: [14.0092, 121.1080],
         long: 14.0092,
         lang: 121.1080,

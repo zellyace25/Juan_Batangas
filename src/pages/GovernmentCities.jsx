@@ -1,12 +1,12 @@
 import React from 'react'
 import CityHero from './Government/CityHero'
-import CityMap from './Government/CityMap'
+import MapSection from './Government/MapSection'
 
 const GovernmentCities = () => {
   return (
     <div>
       <CityHero/>
-      <CityMap/> 
+      <MapSection/> 
     </div>
   )
 }

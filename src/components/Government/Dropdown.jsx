@@ -14,13 +14,14 @@ const Dropdown = ({title, value}) => {
     }
     
   return (
-    <div className=' bg-[#F9F9F9] rounded-[15px] p-4 relative hover:cursor-pointer'
+    <div className=' bg-[#F9F9F9] rounded-[15px] p-4 relative hover:cursor-pointer
+     drop-shadow-mapContainer'
      onClick={() => setShow(!isShow)}>
       <div className='flex justify-between'>
         <p className=' font-poppins text-[22px] text-[#B9B9B9]'>{title}</p>
         <KeyboardArrowDownIcon />
       </div>
-      {value === 'districts' && isShow && <div>
+      {value === 'districts' && isShow && <div className=''>
         {districtData.map((district, i) => {
             return <ul key={i} className=' p-4'>
                 <li className=' font-poppins text-[20px]'
@@ -28,9 +29,9 @@ const Dropdown = ({title, value}) => {
             </ul>
         })}
         </div>}
-      {value === 'city' && isShow && <div>
+      {value === 'city' && isShow && <div className=''>
         {municipalityData.map((city, i) =>{
-          return <ul key={i} className=' p-4'>
+          return <ul key={i} className=' p-4 '>
             <li className=' font-poppins text-[20px]'>{city.name}</li>
           </ul>
         })}

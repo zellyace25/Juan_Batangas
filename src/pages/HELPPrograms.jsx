@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
 
 function HELPPrograms() {
   return (
-    <>
-      <div>HELPPrograms</div>
-    </>
+    <div  style={{background: `url(${''})`}}>
+       <h1 className="gradient-text font-bold text-[60px]">
+          H-E-L-P PROGRAM
+        </h1>
+    </div>
   );
 }
 

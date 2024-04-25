@@ -4,10 +4,12 @@ import NavigationContainer from "../components/NavigationContainer";
 import resources from "/src/Resources.js";
 import { useNavigate } from "react-router-dom";
 import ProgramAndServices from "./ProgramAndServices";
+import GovernmentOptions from "../components/Government/GovernmentOptions";
 
 function Header() {
   const navigate = useNavigate();
   const [clickPrograms, setClickPrograms] = useState(false);
+  const [clickGovernment , setClickGovernment] = useState(false)
 
   return (
     <div className="flex items-center w-full h-[90px] bg-[#F5F5F5] p-3 z-50">
@@ -27,13 +29,14 @@ function Header() {
             navigationOption={navigationOption}
             key={navigationOption}
             handleClick={() => {
-              navigationOption === "Programs and Services"
-                ? setClickPrograms(!clickPrograms)
-                : navigate(`/${navigationOption}`);
+              {navigationOption === "Programs and Services" ? setClickPrograms(!clickPrograms) 
+              : navigationOption === "Government" ? setClickGovernment(!clickGovernment)
+              : navigate(`/${navigationOption}`)}
             }}
           />
         ))}
 
+        {clickGovernment && <GovernmentOptions/>}
         {clickPrograms && <ProgramAndServices/>}
 
         <div className="bg-[#C21616] rounded-full p-3 h-10 w-10 cursor-pointer mr-10">
