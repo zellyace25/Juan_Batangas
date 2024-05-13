@@ -8,6 +8,7 @@ const Dropdown = ({title, value}) => {
     const [isShow, setShow] = useState(false)
     
     const {setData} = useContext(MapContext)
+    const {data} = useContext(MapContext)
 
     const handleClick = (props) =>{
       setData(props) 
@@ -18,7 +19,7 @@ const Dropdown = ({title, value}) => {
      drop-shadow-mapContainer'
      onClick={() => setShow(!isShow)}>
       <div className='flex justify-between'>
-        <p className=' font-poppins text-[22px] text-[#B9B9B9]'>{title}</p>
+        <p className=' font-poppins text-[22px] text-[#B9B9B9]'>{data}</p>
         <KeyboardArrowDownIcon />
       </div>
       {value === 'districts' && isShow && <div className=''>

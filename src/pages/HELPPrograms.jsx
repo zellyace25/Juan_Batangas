@@ -35,7 +35,6 @@ function HELPPrograms() {
     }
   }
 
-
   return (
     <div className="border flex flex-col gap-8 bg-[#F5F5F5] px-[4rem]">
         <h1 className="gradient-text font-bold text-[70px] pl-4 mt-14 mb-10">

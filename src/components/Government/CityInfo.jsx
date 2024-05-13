@@ -4,31 +4,30 @@ import { MapContainer, TileLayer } from 'react-leaflet'
 import "leaflet/dist/leaflet.css"
 import '../../index.css'
 import { useState } from 'react'
-import { ButtonBack, ButtonFirst, ButtonLast, ButtonNext, CarouselProvider, Slide, Slider } from 'pure-react-carousel'
 
 const CityInfo = ({ value }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const data = value;
   const { setMap } = useContext(MapContext);
 
-  const handleClick = (index, props) => {
-      setActiveIndex(index);
-      setMap(props);
-  };
+  const handleClick = (props) => {
+    setMap(props);
+};
 
   const btnClick = (action) => {
-    if (action === 'next' && activeIndex + 2 < data.length) {
-      setActiveIndex(activeIndex + 2);
-    } else if (action === 'prev' && activeIndex - 2 >= 0) {
-      setActiveIndex(activeIndex - 2);
+    if (action === 'next' && activeIndex + 5 < data.length) {
+        setActiveIndex(activeIndex + 5);
+    } else if (action === 'prev' && activeIndex - 5 >= 0) {
+        setActiveIndex(activeIndex - 5);
     }
   };
 
   return (
-      <div className='bg-[#F9F9F9] px-8 py-10 rounded-[10px] drop-shadow-mapContainer'>
+      <div className='bg-[#F9F9F9] px-8 py-10 rounded-[10px] drop-shadow-mapContainer 
+       h-[900px] flex  flex-col  border border-yellow-400'>
           {data.slice(activeIndex, activeIndex + 4).map((item, i) => {
               return (
-                  <div key={i} onClick={() => handleClick(i + activeIndex, item.longLang)}
+                  <div key={i} onClick={() => handleClick(item.longLang)}
                       className='flex gap-5 bg-[#e4c97e] mb-6 py-4 px-8 rounded-[17px] drop-shadow-mapShadow 
                       text-[18px] h-[180px] hover:cursor-pointer'>
                       <div className='w-[30%] overflow-hidden'>
@@ -48,7 +47,7 @@ const CityInfo = ({ value }) => {
                   </div>
               );
           })}
-          <div className='flex justify-between'>
+          <div className='flex justify-between mt-auto'>
             {activeIndex > 0 && <p className='font-poppins text-[20px] text-[#3e3e3e] font-[500] text-end mt-2 hover:cursor-pointer'
              onClick={() => btnClick('prev')}>Previous page</p>}
             <p className='font-poppins text-[20px] text-[#3e3e3e] font-[500] text-end mt-2 ml-auto hover:cursor-pointer' 
