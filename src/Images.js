@@ -6,6 +6,10 @@ import Location from "/src/assets/Location.svg";
 import Phone from "/src/assets/Phone.svg";
 import Email from "/src/assets/Email.svg";
 import student from "/src/assets/student.png";
+import health from "/src/assets/health.png";
+import social from "/src/assets/social.png";
+import livelihood from "/src/assets/livelihood.png";
+import protection from "/src/assets/protection.png";
 
 import Carousel1 from "/src/assets/Carousel1.png";
 import Carousel2 from "/src/assets/Carousel2.png";
@@ -39,6 +43,21 @@ import car from "/src/assets/history/car.png";
 import car1 from "/src/assets/history/car1.png";
 import Rectanglebg from "/src/assets/history/Rectanglebg.png";
 import pin from "/src/assets/history/pin.png";
+
+import ellipse from "/src/assets/history/ellipse.png";
+import rectangle from "/src/assets/history/rectangle.png";
+import batangasProvince from "/src/assets/history/batangasProvince.png";
+import batangasCity from "/src/assets/history/batangasCity.png";
+import alitagtag from "/src/assets/history/alitagtag.png";
+import calaca from "/src/assets/history/calaca.png";
+import balayan from "/src/assets/history/balayan.png";
+import elbg from "/src/assets/history/elbg.png";
+import culture1 from "/src/assets/history/culture1.png";
+import culture2 from "/src/assets/history/culture2.png";
+import culture3 from "/src/assets/history/culture3.png";
+import culture4 from "/src/assets/history/culture4.png";
+import culture5 from "/src/assets/history/culture5.png";
+import curly from "/src/assets/history/curly.png";
 
 export {
   Facebook,
@@ -78,5 +97,23 @@ export {
   car,
   car1,
   Rectanglebg,
-  pin
+  pin,
+  ellipse,
+  rectangle,
+  batangasProvince,
+  batangasCity,
+  alitagtag,
+  calaca,
+  balayan,
+  elbg,
+  culture1,
+  culture2,
+  culture3,
+  culture4,
+  culture5,
+  curly,
+  health,
+  social,
+  livelihood,
+  protection,
 };

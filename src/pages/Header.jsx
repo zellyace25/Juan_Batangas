@@ -10,7 +10,7 @@ function Header() {
   const [clickPrograms, setClickPrograms] = useState(false);
 
   return (
-    <div className="flex items-center w-full h-[90px] bg-[#F5F5F5] p-3 z-50">
+    <div className="flex items-center w-full h-[90px] bg-[#f4f4f4] p-3 z-5 shadow-inner shadow-slate-400 ">
       <div
         className="flex items-center gap-3 cursor-pointer w-1/4"
         onClick={() => navigate("/")}
@@ -34,7 +34,7 @@ function Header() {
           />
         ))}
 
-        {clickPrograms && <ProgramAndServices/>}
+        {clickPrograms && <ProgramAndServices setClickPrograms={setClickPrograms}/>}
 
         <div className="bg-[#C21616] rounded-full p-3 h-10 w-10 cursor-pointer mr-10">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

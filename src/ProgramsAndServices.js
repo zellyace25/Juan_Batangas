@@ -1,29 +1,35 @@
-import { student } from "./Images";
+import { student, health, social, livelihood, protection } from "./Images";
 
 const categories = [
   {
     icons: student,
     programs: "Scholarship Program",
     details:
-      "Lorem ipsum dolor sit amet. Ab repellendus similique ea molestiae dignissimos vel iste molestiae est unde laboriosam et dolorem molestiae ab explicabo tempore. ",
+      "Batangas fosters a rich culture of scholarship, offering diverse opportunities for academic advancement and community betterment ",
   },
   {
-    icons: student,
-    programs: "Scholarship Program",
+    icons: health,
+    programs: "Health Program",
     details:
-      "Lorem ipsum dolor sit amet. Ab repellendus similique ea molestiae dignissimos vel iste molestiae est unde laboriosam et dolorem molestiae ab explicabo tempore. ",
+      "A cornerstone of community wellness, providing essential knowledge and resources to promote healthier lifestyles and disease prevention. ",
   },
   {
-    icons: student,
-    programs: "Scholarship Program",
+    icons: social,
+    programs: "Social Welfare Services",
     details:
-      "Lorem ipsum dolor sit amet. Ab repellendus similique ea molestiae dignissimos vel iste molestiae est unde laboriosam et dolorem molestiae ab explicabo tempore. ",
+      "Batangas provides essential social welfare services, ensuring the well-being and empowerment of its residents ",
   },
   {
-    icons: student,
-    programs: "Scholarship Program",
+    icons: livelihood,
+    programs: "Livelihood Program",
     details:
-      "Lorem ipsum dolor sit amet. Ab repellendus similique ea molestiae dignissimos vel iste molestiae est unde laboriosam et dolorem molestiae ab explicabo tempore. ",
+      "Supports residents with training and resources for sustainable income, fostering economic growth. ",
+  },
+  {
+    icons: protection,
+    programs: "Protection Program",
+    details:
+      "Ensures the safety and security of its residents through various initiatives and resources aimed at safeguarding their rights and well-being. ",
   },
 ];
 

@@ -13,6 +13,11 @@ import {
   VISIT1,
   VISIT2,
   VISIT3,
+  culture1,
+  culture2,
+  culture3,
+  culture4,
+  culture5,
 } from "./Images";
 
 const resources = [
@@ -42,7 +47,12 @@ const resources = [
     ],
     textGradients: ["History", "Mission", "Vision"],
     carousels: [Carousel1, Carousel2, Carousel3, Carousel4],
-    visits: [{photo: VISIT1, name: "VISIT"}, {photo: VISIT2, name: "EXPERIENCE"}, {photo: VISIT3, name: "STAY CONNECTED"}],
+    visits: [
+      { photo: VISIT1, name: "VISIT" },
+      { photo: VISIT2, name: "EXPERIENCE" },
+      { photo: VISIT3, name: "STAY CONNECTED" },
+    ],
+    culture: [culture1, culture2, culture3, culture4, culture5],
   },
 ];
 
