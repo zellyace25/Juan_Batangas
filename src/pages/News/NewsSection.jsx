@@ -9,11 +9,7 @@ const NewsSection = () => {
         <SideSection/>
         <AsideSection/>
       </div> 
-      <div className='my-12'>
-        <h3 className='font-poppins font-semibold text-[40px] mb-4'>Lorem Ipsum</h3>
-        <p className='font-poppins text-[#525252] text-xl'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-      </div>
-      <div className='bg-[#E7AC10] flex p-8 text-white rounded-[20px] items-center'>
+      <div className='bg-[#E7AC10] flex p-8 text-white rounded-[20px] items-center mt-8'>
         <div className='flex-1 flex flex-col gap-4 mr-12'>
             <h3 className='font-poppins text-[40px]'>Stay in the Loop</h3>
             <p className='font-poppins text-[20px] '>
