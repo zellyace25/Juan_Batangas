@@ -21,6 +21,19 @@ import newsImg from '../assets/images/newsImg.png'
 import asideNewsImg from '../assets/images/asideNewsImg.png'
 import mapImg from '../assets/images/mapImg.png'
 import paperImg from '../assets/images/paperBg.png'
+import scholar from '../assets/images/scholar.jpg'
+import job from '../assets/images/job.jpg'
+import section1 from '../assets/images/section1.jpg'
+import section2 from '../assets/images/section2.jpg'
+import section3 from '../assets/images/section3.jpg'
+import section4 from '../assets/images/section4.jpg'
+import section5 from '../assets/images/section5.jpg'
+import section6 from '../assets/images/section6.jpg'
+import section7 from '../assets/images/section7.jpg'
+import section9 from '../assets/images/section9.jpg'
+
+
+
 
 export {
     governorBg,  
@@ -45,64 +58,79 @@ export {
     newsImg,
     asideNewsImg,
     mapImg,
-    paperImg
+    paperImg,
+    scholar,
+    job,
+    section1,
+    section2,
+    section3,
+    section4,
+    section5,
+    section6,
+    section7,
+    section9
 } 
 
 export const newsData = [
     {
         aside:[
             {
-                img: newsImg,
-                sub: 'John Smash',
-                time: '.5min',
-                title: 'Lorem Ipsum is simply dummy text dummy text ',
-                text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.'
+                img: scholar,
+                sub: 'Batangas PIO',
+                time: 'May 9, 2024',
+                title: 'Educational Assistance para sa 2nd semester ng Academic Year 2023 - 2024 ',
+                text: '     Nagpapatuloy ang pamamahagi ng Educational Assistance sa mga Iskolar ng Pamahalaang Panlalawigan ng Batangas para sa 2nd semester ng Academic Year 2023 - 2024 ngayong araw, ika-7 ng Mayo 2024, sa Regina R. Mandanas Memorial DREAM Zone sa Lungsod ng Batangas.\n\n      778 na mga mag-aaral, na kabilang sa mga maintainer scholars, ang nabigyan ng tulong pang-edukasyon, na may kabuuang halagang ₱ 2.9M'
             },{ 
-                img: newsImg, 
-                sub: 'John Smash',
-                time: '.5min',
-                title: 'Lorem Ipsum is simply dummy text dummy text ',
-                text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.'
+                img: job, 
+                sub: 'Ornald Tabares',
+                time: 'March 19, 2024',
+                title: '1st Quarter Job Fair at libreng gupit para sa mga Batangueño, isinagawa sa Kapitolyo',
+                text: '      Muling nagtipon ang mga employers at job seekers sa isinagawang Job Fair ng Pamahalaang Panlalawigan ng Batangas, sa pamamagitan ng Provincial Assistance for Community, Public Employment and Youth and Sports Development Office (PACPEYSDO), ngayong ika-19 ng Marso 2024 sa Regina R. Mandanas Memorial DREAM Zone, Batangas City. \n     Nasa labing-apat na mga rehistradong lokal na kumpanya at pitong overseas recruitment agencies ang nakiisa sa naturang job fair, na nilahukan naman ng may mahigit sa 400 na mga naghahanap ng trabaho. Tampok sa aktibidad ang naging pagbabahagi ng mga partner companies at agencies ng kanilang mga programa at pagsasanay, na maaaring ipagkaloob sa publiko para sa pagpapaunlad ng kabuhayan.'
             }
         ]
     },{
         side: [
             {
-                img: asideNewsImg,
-                sub: 'Juan Bats',
-                time: '.5min',
-                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+                img: section1,
+                sub: 'Rochelle Amboya',
+                time: 'April 30, 2024',
+                title: 'Pagbuo ng Marine Protected Area Management Plans, tinutukan ng Kapitolyo, Malampaya Foundation'
             },{
-                img: asideNewsImg,
-                sub: 'Juan Bats',
-                time: '.5min',
-                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+                img: section2,
+                sub: 'Edwin Zabarte',
+                time: 'May 6, 2024',
+                title: 'Batangueña PNPA 2024 Top Cadet, kinilala ng Batangas Capitol'
             },{
-                img: asideNewsImg,
-                sub: 'Juan Bats',
-                time: '.5min',
-                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+                img: section3,
+                sub: 'PGENRO',
+                time: 'May 2, 2024',
+                title: 'Project LAWA at BINHI, ipinatupad ng Kapitolyo, DSWD sa Bayan ng Lian'
             },{
-                img: asideNewsImg,
-                sub: 'Juan Bats',
-                time: '.5min',
-                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+                img: section4,
+                sub: 'Edwin Zabarte',
+                time: 'March 22, 204',
+                title: 'Batangas Province EL Niño Task Force handa na sa epekto ng tagtuyot sa lalawigan'
             },{
-                img: asideNewsImg,
-                sub: 'Juan Bats',
-                time: '.5min',
-                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+                img: section5,
+                sub: 'Pulso ng Bayan',
+                time: 'February 1, 2024',
+                title: 'Muling nanguna bilang #TopPerformingGovernor sa CALABARZON Region si Batangas Gov. DODO Mandanas'
             },{
-                img: asideNewsImg,
-                sub: 'Juan Bats',
-                time: '.5min',
-                title: 'Lorem Ipsum is simply dummy text dummy text ? '
+                img: section6,
+                sub: 'Gian Escamillas',
+                time: 'March 22,2204',
+                title: '2024 Regional, Provincial Women’s Month Celebration, isinagawa sa Lalawigan ng Batangas'
             },{
-                img: asideNewsImg,
-                sub: 'Juan Bats',
-                time: '.5min',
-                title: 'Lorem Ipsum is simply dummy text dummy text ? '
-            },
+                img: section7,
+                sub: 'Gian Escamillas',
+                time: 'April 20, 2024',
+                title: '2-Day Capability Building Training para sa City/Municipal Anti-Drug Abuse Councils'
+            },{
+                img: section9,
+                sub: 'Ornald Tabares',
+                time: 'April 19, 2024',
+                title: 'Pagbisita ng MV Doulos Hope, isang paglalayag ng kaalaman at inspirasyon'
+            }
         ]
     }
 

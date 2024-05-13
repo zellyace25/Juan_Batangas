@@ -20,6 +20,8 @@ import VISIT1 from "/src/assets/VISIT1.png";
 import VISIT2 from "/src/assets/VISIT2.png";
 import VISIT3 from "/src/assets/VISIT3.png";
 
+import scholarship from '../src/assets/images/scholarship.jpg'
+import bgHelp from '../src/assets/images/bgHelp.png'
 import bgSection1 from "/src/assets/history/bgSection1.png";
 import etymology from "/src/assets/history/etymology.jpg";
 import barrier from "/src/assets/history/barrier.png";
@@ -75,6 +77,8 @@ export {
   VISIT1,
   VISIT2,
   VISIT3,
+  scholarship,
+  bgHelp,
   bgSection1,
   etymology,
   barrier,

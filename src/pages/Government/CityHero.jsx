@@ -3,12 +3,12 @@ import { mapImg } from '../../constant'
 
 const CityHero = () => {
   return (
-    <div className='flex gap-8 py-4 pb-10 justify-between w-full bg-primary border border-black'>
-       <div className=' border border-green-300 '>
+    <div className='flex gap-8 py-4 pb-10 justify-between w-full bg-primary'>
+       <div className=''>
             <img src={mapImg} alt="" 
                 className='object-cover '/> 
        </div>
-      <div className='pt-8 border border-blue-800'>
+      <div className='pt-8'>
         <h1 className='font-lexend font-medium text-[75px] text-end text-[#830600]
          pr-8 pb-[3rem] drop-shadow-textShadow'>
             Municipalities And Cities</h1>
