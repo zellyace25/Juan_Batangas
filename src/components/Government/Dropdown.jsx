@@ -3,24 +3,26 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { districtData, municipalityData } from '../../constant/mapData';
 import { MapContext } from '../../pages/Government/MapSection';
 
-const Dropdown = ({title, value}) => {
+const Dropdown = ({value}) => {
 
     const [isShow, setShow] = useState(false)
     
     const {setData} = useContext(MapContext)
+    const {data} = useContext(MapContext)
 
     const handleClick = (props) =>{
       setData(props) 
     }
     
   return (
-    <div className=' bg-[#F9F9F9] rounded-[15px] p-4 relative hover:cursor-pointer'
+    <div className=' bg-[#F9F9F9] rounded-[15px] p-4 relative hover:cursor-pointer
+     drop-shadow-mapContainer'
      onClick={() => setShow(!isShow)}>
       <div className='flex justify-between'>
-        <p className=' font-poppins text-[22px] text-[#B9B9B9]'>{title}</p>
+        <p className=' font-poppins text-[22px] text-[#B9B9B9]'>{data}</p>
         <KeyboardArrowDownIcon />
       </div>
-      {value === 'districts' && isShow && <div>
+      {value === 'districts' && isShow && <div className=''>
         {districtData.map((district, i) => {
             return <ul key={i} className=' p-4'>
                 <li className=' font-poppins text-[20px]'
@@ -28,9 +30,9 @@ const Dropdown = ({title, value}) => {
             </ul>
         })}
         </div>}
-      {value === 'city' && isShow && <div>
+      {value === 'city' && isShow && <div className=''>
         {municipalityData.map((city, i) =>{
-          return <ul key={i} className=' p-4'>
+          return <ul key={i} className=' p-4 '>
             <li className=' font-poppins text-[20px]'>{city.name}</li>
           </ul>
         })}

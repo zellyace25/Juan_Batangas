@@ -16,7 +16,8 @@ export default {
       dropShadow:{
         textShadow: '0px 6.82121px 0px rgba(0, 0, 0, 0.25)',
         boxShadow: '0px 3.16287px 3.16287px rgba(178, 10, 10)',
-        mapShadow: '0px 4px 0px rgba(131, 6, 01)'
+        mapShadow: '0px 4px 0px rgba(131, 6, 01)',
+        mapContainer: '0px 3px 4px rgba(73,73,73,0.75)'
       }
     },  
   },

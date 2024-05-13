@@ -7,7 +7,7 @@ import {
 
 import Home from "./pages/Home";
 import About from "./pages/AboutUs";
-import Government from "./pages/Government";
+import Government from "./pages/GovernmentOfficials";
 import News from "./pages/News";
 import ProgramAndServices from "./pages/ProgramAndServices";
 import Scholarships from "./pages/Scholarships";
@@ -15,6 +15,8 @@ import HELPPrograms from "./pages/HELPPrograms";
 import SocialWelfare from "./pages/SocialWelfare";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
+import GovernmentCities from "./pages/GovernmentCities";
+import GovernmentOfficials from "./pages/GovernmentOfficials";
 import History from "./pages/ABOUT US/History";
 import StayConnected from "./pages/ABOUT US/StayConnected";
 import Visit from "./pages/ABOUT US/Visit";
@@ -37,6 +39,8 @@ function App() {
           <Route exact path="/SocialWelfare" element={<SocialWelfare />} />
           <Route exact path="/News and Events" element={<News />} />
           <Route exact path="/About us" element={<About />} />
+          <Route exact path="/Government/Municipalities" element={<GovernmentCities/>}/>
+          <Route exact path="/Government/Officials" element={<GovernmentOfficials/>}/>
           <Route exact path="/History" element={<History/>} />
           <Route exact path="/Visit" element={<Visit/>} />
           <Route exact path="/Experience" element={<Experience/>} />
