@@ -22,7 +22,7 @@ const MapSection = () => {
                 <div className=' flex border border-purple-400 w-full gap-8 relative'>
                     <div className='flex flex-col flex-[.8] '>
                         <div className='flex flex-col gap-8'>
-                            <Dropdown title={'Select Districts'} value={'districts'}/>
+                            <Dropdown  value={'districts'}/>
                         </div>
                         <div className='h-[600px] w-full bg-[#B30A05] p-6 mt-[5rem] rounded-[10px]'>  
                         <MapContainer key={`${map[0]}-${map[1]}`} center={map} zoom={12} scrollWheelZoom={false} zoomControl={false}>

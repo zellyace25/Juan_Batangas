@@ -38,13 +38,13 @@ const CityInfo = ({ value }) => {
                       <div className='gap-2 w-[70%] flex flex-col justify-center container'>
                           <p className='font-poppins text-[#830600] font-[700] text-[15px]'>{item.city}</p>
                           <p className='font-bold text-[#434343] text-[15px]'>Website:
-                              <a className='font-light' href={item.website}>{item.website}</a></p>
+                              <a className='font-light' target='_blank' href={item.website}>{item.website}</a></p>
                           <p className='font-bold text-[#434343] text-[15px]'>Facebook Page:
                               <a className='font-light' href={item.fbPage}>{item.fbPage}</a></p>
                           <p className='font-bold text-[#434343] text-[15px]'>Emergency Hotline:
                               <a className='font-light'>{item.hotline}</a></p>
                       </div>
-                  </div>
+                  </div> 
               );
           })}
           <div className='flex justify-between mt-auto'>

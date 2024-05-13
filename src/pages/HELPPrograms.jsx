@@ -3,6 +3,7 @@ import Health from "./HelpProgram/Health";
 import Educ from "./HelpProgram/Educ";
 import Livelihood from "./HelpProgram/Livelihood";
 import Protect from "./HelpProgram/Protect";
+import { bgHelp } from "../Images";
 
 function HELPPrograms() {
 
@@ -36,7 +37,8 @@ function HELPPrograms() {
   }
 
   return (
-    <div className="border flex flex-col gap-8 bg-[#F5F5F5] px-[4rem]">
+    <div className="border flex flex-col gap-8 bg-[#F5F5F5] px-[4rem]"
+    style={{background: `url(${bgHelp})`, backgroundColor:'rgb(245, 245, 245)', backgroundSize: '600px', backgroundRepeat: 'no-repeat', backgroundPosition: 'top right'}}>
         <h1 className="gradient-text font-bold text-[70px] pl-4 mt-14 mb-10">
           H-E-L-P PROGRAM
         </h1>

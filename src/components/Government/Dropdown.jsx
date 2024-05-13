@@ -3,7 +3,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { districtData, municipalityData } from '../../constant/mapData';
 import { MapContext } from '../../pages/Government/MapSection';
 
-const Dropdown = ({title, value}) => {
+const Dropdown = ({value}) => {
 
     const [isShow, setShow] = useState(false)
     

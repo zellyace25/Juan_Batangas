@@ -17,6 +17,7 @@ import VISIT2 from "/src/assets/VISIT2.png";
 import VISIT3 from "/src/assets/VISIT3.png";
 
 import scholarship from '../src/assets/images/scholarship.jpg'
+import bgHelp from '../src/assets/images/bgHelp.png'
 
 export {
   Facebook,
@@ -34,5 +35,6 @@ export {
   VISIT1,
   VISIT2,
   VISIT3,
-  scholarship
+  scholarship,
+  bgHelp
 };
