@@ -13,7 +13,7 @@ function Section2() {
           src={ellipse}
         /> */}
         <div className="bg-[#830600] w-[70%] h-[450px] rounded-tr-[500px] p-16">
-          <h1 className="text-white font-poppins font-bold text-[48px]">
+          <h1 className="text-white font-poppins font-bold text-[48px] ">
             CITIZEN'S CHARTER
           </h1>
           <h1 className="text-[#FDC221] font-medium font-poppins text-[28px]">

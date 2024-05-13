@@ -42,7 +42,7 @@ const resources = [
     ],
     textGradients: ["History", "Mission", "Vision"],
     carousels: [Carousel1, Carousel2, Carousel3, Carousel4],
-    visits: [VISIT1, VISIT2, VISIT3],
+    visits: [{photo: VISIT1, name: "VISIT"}, {photo: VISIT2, name: "EXPERIENCE"}, {photo: VISIT3, name: "STAY CONNECTED"}],
   },
 ];
 
