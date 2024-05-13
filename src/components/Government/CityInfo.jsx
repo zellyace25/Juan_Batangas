@@ -24,7 +24,7 @@ const CityInfo = ({ value }) => {
 
   return (
       <div className='bg-[#F9F9F9] px-8 py-10 rounded-[10px] drop-shadow-mapContainer 
-       h-[900px] flex  flex-col  border border-yellow-400'>
+       h-[900px] flex  flex-col'>
           {data.slice(activeIndex, activeIndex + 4).map((item, i) => {
               return (
                   <div key={i} onClick={() => handleClick(item.longLang)}

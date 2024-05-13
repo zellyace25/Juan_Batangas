@@ -19,7 +19,7 @@ const MapSection = () => {
     <div className=' px-[5rem] pt-[10rem]' style={{background: `url(${paperImg})`, backgroundColor:'rgb(245 245 245)', backgroundSize:'cover'}}>
         <div className=' bg-white rounded-[50px] p-12'>
             <MapContext.Provider value={{ setData, setMap, data}}>
-                <div className=' flex border border-purple-400 w-full gap-8 relative'>
+                <div className=' flex w-full gap-8 relative'>
                     <div className='flex flex-col flex-[.8] '>
                         <div className='flex flex-col gap-8'>
                             <Dropdown  value={'districts'}/>
